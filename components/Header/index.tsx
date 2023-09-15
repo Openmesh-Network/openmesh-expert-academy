@@ -1,74 +1,41 @@
 /* eslint-disable no-unused-vars */
-import Image from 'next/image'
-import Link from 'next/link'
 import { useEffect, useState, useContext } from 'react'
-import ThemeToggler from './ThemeToggler'
-import menuData from './menuData'
-import { UserCircle } from 'phosphor-react'
-import * as Dialog from '@radix-ui/react-dialog'
-import axios from 'axios'
 
 const Header = () => {
   // Navbar toggle
   const [navbarOpen, setNavbarOpen] = useState(false)
-  const [userNavbarOpen, setUserNavbarOpen] = useState(false)
-  const [userConnected, setUserConnected] = useState()
   const navbarToggleHandler = () => {
     setNavbarOpen(!navbarOpen)
   }
 
   // submenu handler
   const [openIndex, setOpenIndex] = useState(-1)
-  const handleSubmenu = (index) => {
-    if (openIndex === index) {
-      setOpenIndex(-1)
-    } else {
-      setOpenIndex(index)
-    }
-  }
-
-  function onClickTrans(element: string) {
-    const taskStartElement = document.getElementById(element)
-    taskStartElement.scrollIntoView({ behavior: 'smooth' })
-  }
-
-  const navigationItems = [
-    { label: 'About', href: '/about' },
-    { label: 'Products', href: '/products' },
-    { label: 'Technology', href: '/technology' },
-    { label: 'Infrastructure', href: '/infrastructure' },
-    {
-      label: 'Transparency & Governance',
-      href: '/transparency-and-governance',
-    },
-    { label: 'Community', href: '/community' },
-  ]
 
   const features = [
     {
       label: 'About',
       isCurrentlyPage: false,
-      href: 'https://openmesh-expert-landing-page.vercel.app/',
+      href: `${process.env.NEXT_PUBLIC_BASE_URL}/about`,
     },
     {
       label: 'Expert community',
       isCurrentlyPage: false,
-      href: 'https://openmesh-expert-community.vercel.app/',
+      href: `${process.env.NEXT_PUBLIC_BASE_URL}/community`,
     },
     {
       label: 'Academy',
       isCurrentlyPage: true,
-      href: 'https://openmesh-expert-academy.vercel.app/',
+      href: `${process.env.NEXT_PUBLIC_BASE_URL}/academy`,
     },
     {
       label: 'Success Stories',
       isCurrentlyPage: false,
-      href: '/',
+      href: `${process.env.NEXT_PUBLIC_BASE_URL}/community`,
     },
     {
       label: 'FAQs',
       isCurrentlyPage: false,
-      href: 'https://openmesh-expert-community.vercel.app/faqs',
+      href: `${process.env.NEXT_PUBLIC_BASE_URL}/community/faqs`,
     },
   ]
 
@@ -143,7 +110,7 @@ const Header = () => {
               <div>
                 {' '}
                 <a
-                  href={`https://openmesh-expert-frontend.vercel.app/`}
+                  href={`${process.env.NEXT_PUBLIC_BASE_URL}/community/register`}
                   className=" cursor-pointer items-center rounded-[5px] border border-[#0354EC] bg-transparent py-[9px] px-[18px] text-[13px] font-bold !leading-[19px] text-[#0354EC] hover:bg-[#0354EC] hover:text-[#fff]"
                 >
                   Become an expert
@@ -255,7 +222,7 @@ const Header = () => {
           </div>
           <div className={` flex justify-between gap-x-[80px]`}>
             <a
-              href={`https://openmesh-expert-frontend.vercel.app/`}
+              href={`${process.env.NEXT_PUBLIC_BASE_URL}/community/register`}
               className="flex cursor-pointer items-center rounded-[5px] border border-[#0354EC] bg-transparent  py-[9px] px-[18px] text-[14px] font-bold !leading-[19px] text-[#0354EC] hover:bg-[#0354EC] hover:text-[#fff] 2xl:py-[11.5px] 2xl:px-[24px] 2xl:text-[16px]"
             >
               Become an expert
@@ -263,7 +230,7 @@ const Header = () => {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href={`https://openmesh-expert-community.vercel.app/login`}
+              href={`${process.env.NEXT_PUBLIC_BASE_URL}/community/login`}
               className=" my-auto h-fit cursor-pointer items-center   border-b  border-[#000] bg-transparent text-[16px]  font-bold !leading-[19px] text-[#000] hover:text-[#3b3a3a]"
             >
               Login

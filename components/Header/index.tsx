@@ -61,7 +61,7 @@ const Header = () => {
     {
       label: 'FAQs',
       isCurrentlyPage: false,
-      href: '/',
+      href: 'https://openmesh-expert-community.vercel.app/faqs',
     },
   ]
 

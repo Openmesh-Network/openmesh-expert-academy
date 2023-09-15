@@ -55,10 +55,10 @@ const Hero = () => {
         className="relative z-10 overflow-hidden bg-white px-[30px] pt-[53px] text-[#000000] md:px-[90px] lg:pt-[132px]"
       >
         <div className="mx-auto lg:flex xl:max-w-[1100px]">
-          <div className="text-center text-[24px] font-medium -tracking-[2%] lg:text-start lg:text-[33px] lg:!leading-[58px] xl:text-[48px]">
+          <div className="text-center text-[24px] font-medium -tracking-[2%] lg:text-start lg:text-[33px] lg:!leading-[58px] xl:text-[38px] 2xl:text-[48px]">
             Openmesh Vision and Values
           </div>
-          <div className="mt-[18px] max-w-[638px] text-[11px] font-medium -tracking-[2%] lg:mt-0 lg:text-[14px] lg:!leading-[150%] xl:text-[20px]">
+          <div className="mt-[18px] max-w-[638px] text-[11px] font-medium -tracking-[2%] lg:mt-0 lg:text-[14px] lg:!leading-[150%] xl:text-[16px] 2xl:text-[20px]">
             <div>
               Openmesh is building a decentralized data infrastructure aimed at
               storing important global data without a middleman, starting with
@@ -78,10 +78,10 @@ const Hero = () => {
         <div className="mx-auto mt-[35px] grid gap-x-[70px] gap-y-[20px] lg:mt-[105px] lg:grid-cols-4 xl:max-w-[1200px]">
           {features.map((feature, index) => (
             <div key={index}>
-              <div className="text-[12px] font-bold tracking-[2.2%] md:text-[15px] lg:text-[17px] xl:text-[24px] xl:!leading-[150%]">
+              <div className="text-[12px] font-bold tracking-[2.2%] md:text-[15px] lg:text-[17px] xl:text-[19px] xl:!leading-[150%] 2xl:text-[24px]">
                 {feature.name}
               </div>
-              <div className="mt-[8px] text-[10px] font-medium text-[#959595] md:text-[12px] lg:mt-[15px] lg:text-[14px] lg:!leading-[24px] xl:text-[20px]">
+              <div className="mt-[8px] text-[10px] font-medium text-[#959595] md:text-[12px] lg:mt-[15px] lg:text-[14px] lg:!leading-[24px] xl:text-[16px] 2xl:text-[20px]">
                 {feature.description}
               </div>
             </div>
@@ -90,10 +90,10 @@ const Hero = () => {
         <div className="mx-auto mt-[55px] grid grid-cols-3 gap-y-[20px] gap-x-[50px] lg:grid-cols-6 lg:gap-x-[100px] xl:mt-[95px] xl:max-w-[1400px]">
           {featuresNumbers.map((feature, index) => (
             <div key={index}>
-              <div className="text-center text-[24px] font-bold md:text-[29px] lg:text-[34px] xl:text-[40px] xl:!leading-[48px]">
+              <div className="text-center text-[24px] font-bold md:text-[29px] lg:text-[34px] 2xl:text-[40px] 2xl:!leading-[48px]">
                 {feature.name}
               </div>
-              <div className="mt-[5px] text-center text-[8px] font-normal md:text-[10px] lg:text-[12px] xl:text-[16px] xl:!leading-[19px]">
+              <div className="mt-[5px] text-center text-[8px] font-normal md:text-[10px] lg:text-[12px] xl:text-[13px] xl:!leading-[19px] 2xl:text-[16px]">
                 {feature.description}
               </div>
             </div>

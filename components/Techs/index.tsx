@@ -7,10 +7,10 @@ const Techs = () => {
         className="relative z-10 overflow-hidden bg-white px-[30px] pt-[43px] text-[#000000] md:px-[90px] lg:pt-[105px]"
       >
         <div className="justify-center text-center">
-          <div className=" flex justify-center text-[24px] font-medium -tracking-[2%] lg:text-start lg:text-[33px] lg:!leading-[58px] xl:text-[48px]">
+          <div className=" flex justify-center text-[24px] font-medium -tracking-[2%] lg:text-start lg:text-[33px] lg:!leading-[58px] xl:text-[38px] 2xl:text-[48px]">
             Openmesh Academy
           </div>
-          <div className="mt-[10px] text-[15px] font-medium -tracking-[2%] text-[#959595] lg:mt-[20px] lg:text-[19px] lg:!leading-[150%] xl:text-[26px]">
+          <div className="mt-[10px] text-[15px] font-medium -tracking-[2%] text-[#959595] lg:mt-[20px] lg:text-[19px] lg:!leading-[150%] xl:text-[20px] 2xl:text-[26px]">
             <div>Get to know Openmesh and its core services</div>
           </div>
         </div>
@@ -36,7 +36,7 @@ const Techs = () => {
               </a>
             </div>
           </div>
-          <div className="mt-[20px]  ml-auto max-w-[830px] text-[11px] font-medium -tracking-[2%] lg:mt-0 lg:text-[14px] lg:!leading-[150%] xl:text-[20px]">
+          <div className="mt-[20px]  ml-auto max-w-[830px] text-[11px] font-medium -tracking-[2%] lg:mt-0 lg:text-[14px] lg:!leading-[150%] xl:text-[16px] 2xl:text-[20px]">
             <img
               src={`${
                 process.env.NEXT_PUBLIC_ENVIRONMENT === 'PROD'
@@ -46,14 +46,14 @@ const Techs = () => {
               alt="image"
               className={`mx-auto transition-all duration-300 hover:scale-110 lg:mx-0`}
             />
-            <div className="mt-[20px] max-w-[698px] text-[15px] font-normal tracking-normal md:text-[18px] lg:mt-[40px] lg:text-[21px] lg:!leading-[36px] xl:text-[30px]">
+            <div className="mt-[20px] max-w-[698px] text-[15px] font-normal tracking-normal md:text-[18px] lg:mt-[40px] lg:text-[21px] lg:!leading-[36px] xl:text-[24px] 2xl:text-[30px]">
               Design, develop, deploy, connect, and manage decentralized data
               clouds in any region in minutes, not months. Pay only for bare
               metal servers. No license, no setup fees.
             </div>
             <div className="mt-[20px] lg:mt-[40px] lg:flex">
-              <div className="flex-1 text-[10px] font-medium !leading-[135%] lg:mr-[30px] lg:text-[12px] xl:text-[16px]">
-                <span className="text-[12px] font-bold lg:text-[14px] xl:text-[20px]">
+              <div className="flex-1 text-[10px] font-medium !leading-[135%] lg:mr-[30px] lg:text-[12px] xl:text-[13px] 2xl:text-[16px]">
+                <span className="text-[12px] font-bold lg:text-[14px] xl:text-[16px] 2xl:text-[20px]">
                   Modules:
                 </span>{' '}
                 <br />
@@ -84,8 +84,8 @@ const Techs = () => {
                 <br />
                 <span className="text-[#959595]">Docs & Research</span>
               </div>
-              <div className="mt-[20px] flex-1 text-[10px]  font-medium !leading-[135%] lg:mt-0 lg:text-[12px] xl:text-[16px]">
-                <span className="text-[12px] font-bold lg:text-[14px] xl:text-[20px]">
+              <div className="mt-[20px] flex-1 text-[10px]  font-medium !leading-[135%] lg:mt-0 lg:text-[12px] xl:text-[13px] 2xl:text-[16px]">
+                <span className="text-[12px] font-bold lg:text-[14px] xl:text-[16px] 2xl:text-[20px]">
                   What you will learn:
                 </span>{' '}
                 <br />
@@ -140,7 +140,7 @@ const Techs = () => {
         </div>
         <div className="mx-auto mt-[55px] flex h-[1px] max-w-[1445px] bg-[#D4D4D4] lg:mt-[107px]"></div>
         <div className="mx-auto mt-[32px] lg:mt-[75px]  lg:flex xl:max-w-[1600px]">
-          <div className="ml-auto max-w-[830px] text-[11px] font-medium -tracking-[2%] lg:mt-0 lg:text-[14px] lg:!leading-[150%] xl:text-[20px]">
+          <div className="ml-auto max-w-[830px] text-[11px] font-medium -tracking-[2%] lg:mt-0 lg:text-[14px] lg:!leading-[150%] xl:text-[16px] 2xl:text-[20px]">
             <img
               src={`${
                 process.env.NEXT_PUBLIC_ENVIRONMENT === 'PROD'
@@ -150,14 +150,14 @@ const Techs = () => {
               alt="image"
               className={`mx-auto transition-all duration-300 hover:scale-110 lg:mx-0`}
             />
-            <div className="mt-[20px] max-w-[698px] text-[15px] font-normal tracking-normal md:text-[18px] lg:mt-[40px] lg:text-[21px] lg:!leading-[36px] xl:text-[30px]">
+            <div className="mt-[20px] max-w-[698px] text-[15px] font-normal tracking-normal md:text-[18px] lg:mt-[40px] lg:text-[21px] lg:!leading-[36px] xl:text-[24px] 2xl:text-[30px]">
               A single endpoint for all crypto & web3 data, accessible to
               anyone, anywhere, always free. No license, no registration, no
               setup fees.
             </div>
             <div className="mt-[20px] lg:mt-[40px] lg:flex">
-              <div className="flex-1 text-[10px] font-medium !leading-[135%] lg:mr-[30px] lg:text-[12px] xl:text-[16px]">
-                <span className="text-[12px] font-bold lg:text-[14px] xl:text-[20px]">
+              <div className="flex-1 text-[10px] font-medium !leading-[135%] lg:mr-[30px] lg:text-[12px] xl:text-[13px] 2xl:text-[16px]">
+                <span className="text-[12px] font-bold lg:text-[14px] xl:text-[16px] 2xl:text-[20px]">
                   Modules:
                 </span>{' '}
                 <br />
@@ -188,8 +188,8 @@ const Techs = () => {
                 <br />
                 <span className="text-[#959595]">Docs & Research</span>
               </div>
-              <div className="mt-[20px] flex-1 text-[10px]  font-medium !leading-[135%] lg:mt-0 lg:text-[12px] xl:text-[16px]">
-                <span className="text-[12px] font-bold lg:text-[14px] xl:text-[20px]">
+              <div className="mt-[20px] flex-1 text-[10px]  font-medium !leading-[135%] lg:mt-0 lg:text-[12px] xl:text-[13px] 2xl:text-[16px]">
+                <span className="text-[12px] font-bold lg:text-[14px] xl:text-[16px] 2xl:text-[20px]">
                   What you will learn:
                 </span>{' '}
                 <br />
@@ -271,7 +271,7 @@ const Techs = () => {
               </a>
             </div>
           </div>
-          <div className="mt-[20px]  ml-auto max-w-[830px] text-[11px] font-medium -tracking-[2%] lg:mt-0 lg:text-[14px] lg:!leading-[150%] xl:text-[20px]">
+          <div className="mt-[20px]  ml-auto max-w-[830px] text-[11px] font-medium -tracking-[2%] lg:mt-0 lg:text-[14px] lg:!leading-[150%] xl:text-[16px] 2xl:text-[20px]">
             <img
               src={`${
                 process.env.NEXT_PUBLIC_ENVIRONMENT === 'PROD'
@@ -281,7 +281,7 @@ const Techs = () => {
               alt="image"
               className={`mx-auto transition-all duration-300 hover:scale-110 lg:mx-0`}
             />
-            <div className="mt-[20px] max-w-[698px] text-[15px] font-normal tracking-normal md:text-[18px] lg:mt-[40px] lg:text-[21px] lg:!leading-[36px] xl:text-[30px]">
+            <div className="mt-[20px] max-w-[698px] text-[15px] font-normal tracking-normal md:text-[18px] lg:mt-[40px] lg:text-[21px] lg:!leading-[36px] xl:text-[24px] 2xl:text-[30px]">
               Design, build, visualize, and deploy powerful Web3 data products.
               Pythia is a powerhouse analytics & query engine that transforms
               raw data into actionable insights. Its search function operates
@@ -289,8 +289,8 @@ const Techs = () => {
               instantly.
             </div>
             <div className="mt-[20px] lg:mt-[40px] lg:flex">
-              <div className="flex-1 text-[10px] font-medium !leading-[135%] lg:mr-[30px] lg:text-[12px] xl:text-[16px]">
-                <span className="text-[12px] font-bold lg:text-[14px] xl:text-[20px]">
+              <div className="flex-1 text-[10px] font-medium !leading-[135%] lg:mr-[30px] lg:text-[12px] xl:text-[13px] 2xl:text-[16px]">
+                <span className="text-[12px] font-bold lg:text-[14px] xl:text-[16px] 2xl:text-[20px]">
                   Modules:
                 </span>{' '}
                 <br />
@@ -321,8 +321,8 @@ const Techs = () => {
                 <br />
                 <span className="text-[#959595]">Docs & Research</span>
               </div>
-              <div className="mt-[20px] flex-1 text-[10px]  font-medium !leading-[135%] lg:mt-0 lg:text-[12px] xl:text-[16px]">
-                <span className="text-[12px] font-bold lg:text-[14px] xl:text-[20px]">
+              <div className="mt-[20px] flex-1 text-[10px]  font-medium !leading-[135%] lg:mt-0 lg:text-[12px] xl:text-[13px] 2xl:text-[16px]">
+                <span className="text-[12px] font-bold lg:text-[14px] xl:text-[16px] 2xl:text-[20px]">
                   What you will learn:
                 </span>{' '}
                 <br />

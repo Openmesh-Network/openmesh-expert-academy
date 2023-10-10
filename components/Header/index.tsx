@@ -12,31 +12,31 @@ const Header = () => {
   const [openIndex, setOpenIndex] = useState(-1)
 
   const features = [
-    {
-      label: 'About',
-      isCurrentlyPage: false,
-      href: `${process.env.NEXT_PUBLIC_BASE_URL}/about`,
-    },
-    {
-      label: 'Expert community',
-      isCurrentlyPage: false,
-      href: `${process.env.NEXT_PUBLIC_BASE_URL}/community`,
-    },
-    {
-      label: 'Academy',
-      isCurrentlyPage: true,
-      href: `${process.env.NEXT_PUBLIC_BASE_URL}/academy`,
-    },
-    {
-      label: 'Success Stories',
-      isCurrentlyPage: false,
-      href: `${process.env.NEXT_PUBLIC_BASE_URL}/community`,
-    },
-    {
-      label: 'FAQs',
-      isCurrentlyPage: false,
-      href: `${process.env.NEXT_PUBLIC_BASE_URL}/community/faqs`,
-    },
+    // {
+    //   label: 'About',
+    //   isCurrentlyPage: false,
+    //   href: `${process.env.NEXT_PUBLIC_BASE_URL}/about`,
+    // },
+    // {
+    //   label: 'Expert community',
+    //   isCurrentlyPage: false,
+    //   href: `${process.env.NEXT_PUBLIC_BASE_URL}/community`,
+    // },
+    // {
+    //   label: 'Academy',
+    //   isCurrentlyPage: true,
+    //   href: `${process.env.NEXT_PUBLIC_BASE_URL}/academy`,
+    // },
+    // {
+    //   label: 'Success Stories',
+    //   isCurrentlyPage: false,
+    //   href: `${process.env.NEXT_PUBLIC_BASE_URL}/community`,
+    // },
+    // {
+    //   label: 'FAQs',
+    //   isCurrentlyPage: false,
+    //   href: `${process.env.NEXT_PUBLIC_BASE_URL}/community/faqs`,
+    // },
   ]
 
   return (
@@ -56,7 +56,7 @@ const Header = () => {
                 process.env.NEXT_PUBLIC_ENVIRONMENT === 'PROD'
                   ? process.env.NEXT_PUBLIC_BASE_PATH
                   : ''
-              }/images/header/openmesh-logo.png`}
+              }/images/header/academy-logo.png`}
               alt="image"
               className={`w-[150px]`}
             />
@@ -201,7 +201,7 @@ const Header = () => {
                 process.env.NEXT_PUBLIC_ENVIRONMENT === 'PROD'
                   ? process.env.NEXT_PUBLIC_BASE_PATH
                   : ''
-              }/images/header/openmesh-logo.png`}
+              }/images/header/academy-logo.png`}
               alt="image"
               className={`mr-[60px]`}
             />
@@ -227,14 +227,14 @@ const Header = () => {
             >
               Become an expert
             </a>
-            <a
+            {/* <a
               target="_blank"
               rel="noopener noreferrer"
               href={`${process.env.NEXT_PUBLIC_BASE_URL}/community/login`}
               className=" my-auto h-fit cursor-pointer items-center   border-b  border-[#000] bg-transparent text-[16px]  font-bold !leading-[19px] text-[#000] hover:text-[#3b3a3a]"
             >
               Login
-            </a>
+            </a> */}
             {/* {user?.sessionToken ? (
               <div>
                 <img

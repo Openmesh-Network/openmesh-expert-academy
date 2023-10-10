@@ -29,7 +29,7 @@ const Techs = () => {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href={`https://calendly.com/`}
+                href={`https://open-mesh.gitbook.io/l3a-v3-documentation-2.0/openmesh/use-cases`}
                 className="mx-auto mt-[25px] flex w-fit cursor-pointer items-center rounded-[5px] border border-[#000]  bg-transparent py-[6px] px-[20px] text-[12px] font-bold !leading-[19px] text-[#575757] hover:bg-[#ececec] lg:mt-[50px] lg:py-[11.5px] lg:px-[40px] lg:text-[16px]"
               >
                 Go to modules
@@ -240,7 +240,7 @@ const Techs = () => {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href={`https://calendly.com/`}
+                href={`https://open-mesh.gitbook.io/l3a-v3-documentation-2.0/openmesh/use-cases`}
                 className="mx-auto mt-[25px] flex w-fit cursor-pointer items-center rounded-[5px] border border-[#000]  bg-transparent py-[6px] px-[20px] text-[12px] font-bold !leading-[19px] text-[#575757] hover:bg-[#ececec] lg:mt-[50px] lg:py-[11.5px] lg:px-[40px] lg:text-[16px]"
               >
                 Go to modules
@@ -264,7 +264,7 @@ const Techs = () => {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href={`https://calendly.com/`}
+                href={`https://open-mesh.gitbook.io/l3a-v3-documentation-2.0/openmesh/use-cases`}
                 className="mx-auto mt-[25px] flex w-fit cursor-pointer items-center rounded-[5px] border border-[#000]  bg-transparent py-[6px] px-[20px] text-[12px] font-bold !leading-[19px] text-[#575757] hover:bg-[#ececec] lg:mt-[50px] lg:py-[11.5px] lg:px-[40px] lg:text-[16px]"
               >
                 Go to modules

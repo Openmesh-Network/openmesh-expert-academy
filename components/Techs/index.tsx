@@ -226,8 +226,8 @@ const Techs = () => {
               </div>
             </div>
           </div>
-          <div className="mt-[40px] lg:mt-0 lg:mr-[30px] lg:pt-[100px] xl:ml-[70px]">
-            <img
+          <div className="mt-[40px] min-w-[200px] md:min-w-[360px] md:px-5 lg:mt-0 lg:mr-[30px] lg:min-w-[420px] lg:pt-[100px] xl:ml-[70px] xl:min-w-[480px] 2xl:min-w-[600px]">
+            {/* <img
               src={`${
                 process.env.NEXT_PUBLIC_ENVIRONMENT === 'PROD'
                   ? process.env.NEXT_PUBLIC_BASE_PATH
@@ -235,7 +235,17 @@ const Techs = () => {
               }/images/techs/unifiedApiIntegration.png`}
               alt="image"
               className={`mx-auto`}
-            />
+            /> */}
+            <iframe
+              width="100%"
+              height="50%"
+              src="https://www.youtube.com/embed/EBXhhi9GeuQ"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              className={`mx-auto justify-center text-center md:min-h-[400px] lg:min-h-[300px]`}
+            ></iframe>
             <div className="">
               <a
                 target="_blank"
@@ -250,8 +260,8 @@ const Techs = () => {
         </div>
         <div className="mx-auto mt-[55px] flex h-[1px] max-w-[1445px] bg-[#D4D4D4] lg:mt-[107px]"></div>
         <div className="mx-auto mt-[55px] lg:mt-[75px]  lg:flex xl:max-w-[1600px]">
-          <div className="lg:mr-[50px] lg:pt-[100px] xl:mr-[90px]">
-            <img
+          <div className="min-w-[200px] md:min-w-[360px] lg:mr-[50px] lg:min-w-[420px] lg:pt-[100px] xl:mr-[90px] xl:min-w-[480px] 2xl:min-w-[600px]">
+            {/* <img
               src={`${
                 process.env.NEXT_PUBLIC_ENVIRONMENT === 'PROD'
                   ? process.env.NEXT_PUBLIC_BASE_PATH
@@ -259,7 +269,17 @@ const Techs = () => {
               }/images/techs/playingWithPythia.png`}
               alt="image"
               className={`mx-auto`}
-            />
+            /> */}
+            <iframe
+              width="100%"
+              height="50%"
+              src="https://www.youtube.com/embed/kdCeR5_YON8"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              className={`mx-auto justify-center text-center md:h-[400px] lg:h-[300px]`}
+            ></iframe>
             <div className="">
               <a
                 target="_blank"

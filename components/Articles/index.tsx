@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import SingleCard from './SingleCard'
 
 /* eslint-disable react/no-unescaped-entities */
@@ -25,7 +26,7 @@ const Articles = () => {
         id="articles"
         className="relative z-10 overflow-hidden bg-white px-[40px] pb-[100px] pt-[85px] text-[#000000] md:px-[90px] lg:pt-[132px]"
       >
-        <div className="mx-auto xl:max-w-[1200px]">
+        {/* <div className="mx-auto xl:max-w-[1200px]">
           <div className="flex justify-center text-center  text-[25px] font-medium -tracking-[2%] lg:text-[30px] lg:!leading-[77px] 2xl:text-[40px]">
             More articles
           </div>
@@ -40,7 +41,7 @@ const Articles = () => {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
       </section>
     </>
   )

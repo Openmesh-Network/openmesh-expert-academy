@@ -1,7 +1,7 @@
 const CTA = () => {
   return (
     <>
-      <section
+      {/* <section
         id="cta"
         className="relative z-10 overflow-hidden  border-[#D4D4D4] bg-white px-[40px] pt-[70px] text-[#000000] lg:pt-[167px]"
       >
@@ -56,7 +56,7 @@ const CTA = () => {
             </a>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   )
 }

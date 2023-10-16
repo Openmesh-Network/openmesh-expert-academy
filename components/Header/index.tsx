@@ -12,31 +12,31 @@ const Header = () => {
   const [openIndex, setOpenIndex] = useState(-1)
 
   const features = [
-    {
-      label: 'About',
-      isCurrentlyPage: false,
-      href: `${process.env.NEXT_PUBLIC_BASE_URL}/about`,
-    },
-    {
-      label: 'Expert community',
-      isCurrentlyPage: false,
-      href: `${process.env.NEXT_PUBLIC_BASE_URL}/community`,
-    },
-    {
-      label: 'Academy',
-      isCurrentlyPage: true,
-      href: `${process.env.NEXT_PUBLIC_BASE_URL}/academy`,
-    },
+    // {
+    //   label: 'About',
+    //   isCurrentlyPage: false,
+    //   href: `${process.env.NEXT_PUBLIC_BASE_URL}/about`,
+    // },
+    // {
+    //   label: 'Expert community',
+    //   isCurrentlyPage: false,
+    //   href: `${process.env.NEXT_PUBLIC_BASE_URL}/community`,
+    // },
+    // {
+    //   label: 'Academy',
+    //   isCurrentlyPage: true,
+    //   href: `${process.env.NEXT_PUBLIC_BASE_URL}/academy`,
+    // },
     // {
     //   label: 'Success Stories',
     //   isCurrentlyPage: false,
     //   href: `${process.env.NEXT_PUBLIC_BASE_URL}/community`,
     // },
-    {
-      label: 'FAQs',
-      isCurrentlyPage: false,
-      href: `${process.env.NEXT_PUBLIC_BASE_URL}/community/faqs`,
-    },
+    // {
+    //   label: 'FAQs',
+    //   isCurrentlyPage: false,
+    //   href: `${process.env.NEXT_PUBLIC_BASE_URL}/community/faqs`,
+    // },
   ]
 
   return (
@@ -56,7 +56,7 @@ const Header = () => {
                 process.env.NEXT_PUBLIC_ENVIRONMENT === 'PROD'
                   ? process.env.NEXT_PUBLIC_BASE_PATH
                   : ''
-              }/images/header/openmesh-logo.svg`}
+              }/images/new/logo.png`}
               alt="image"
               className={`w-[150px]`}
             />
@@ -110,7 +110,7 @@ const Header = () => {
               <div>
                 {' '}
                 <a
-                  href={`${process.env.NEXT_PUBLIC_BASE_URL}/community/register`}
+                  href={`${process.env.NEXT_PUBLIC_BASE_URL}/oec/register`}
                   className=" cursor-pointer items-center rounded-[5px] border border-[#0354EC] bg-transparent py-[9px] px-[18px] text-[13px] font-bold !leading-[19px] text-[#0354EC] hover:bg-[#0354EC] hover:text-[#fff]"
                 >
                   Become an expert
@@ -196,17 +196,15 @@ const Header = () => {
         </div>
         <div className="hidden h-full w-full items-center justify-between px-[70px] xl:flex">
           <div className="flex  h-full items-center">
-            <a href={'/'}>
-              <img
-                src={`${
-                  process.env.NEXT_PUBLIC_ENVIRONMENT === 'PROD'
-                    ? process.env.NEXT_PUBLIC_BASE_PATH
-                    : ''
-                }/images/header/openmesh-logo.svg`}
-                alt="image"
-                className={`mr-[60px]`}
-              />
-            </a>
+            <img
+              src={`${
+                process.env.NEXT_PUBLIC_ENVIRONMENT === 'PROD'
+                  ? process.env.NEXT_PUBLIC_BASE_PATH
+                  : ''
+              }/images/new/logo.png`}
+              alt="image"
+              className={`mr-[60px] w-[200px]`}
+            />
             <div className="flex h-full items-center gap-x-[1px] text-[14px] font-medium !leading-[19px] 2xl:gap-x-[20px] 2xl:text-[16px]">
               {features.map((feature, index) => (
                 <div className="flex h-full items-center" key={index}>
@@ -224,19 +222,19 @@ const Header = () => {
           </div>
           <div className={` flex justify-between gap-x-[80px]`}>
             <a
-              href={`${process.env.NEXT_PUBLIC_BASE_URL}/community/register`}
+              href={`${process.env.NEXT_PUBLIC_BASE_URL}/oec/register`}
               className="flex cursor-pointer items-center rounded-[5px] border border-[#0354EC] bg-transparent  py-[9px] px-[18px] text-[14px] font-bold !leading-[19px] text-[#0354EC] hover:bg-[#0354EC] hover:text-[#fff] 2xl:py-[11.5px] 2xl:px-[24px] 2xl:text-[16px]"
             >
               Become an expert
             </a>
-            <a
+            {/* <a
               target="_blank"
               rel="noopener noreferrer"
               href={`${process.env.NEXT_PUBLIC_BASE_URL}/community/login`}
               className=" my-auto h-fit cursor-pointer items-center   border-b  border-[#000] bg-transparent text-[16px]  font-bold !leading-[19px] text-[#000] hover:text-[#3b3a3a]"
             >
               Login
-            </a>
+            </a> */}
             {/* {user?.sessionToken ? (
               <div>
                 <img

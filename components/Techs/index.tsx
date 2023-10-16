@@ -25,6 +25,9 @@ const Techs = () => {
               alt="image"
               className={`mx-auto`}
             />
+            <div className="mx-auto mt-[5px] flex justify-center">
+              Coming soon...
+            </div>
             <div className="">
               <a
                 target="_blank"

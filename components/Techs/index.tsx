@@ -1,11 +1,35 @@
+/* eslint-disable no-unused-vars */
+'use client'
+import { usePathname, useSearchParams, useRouter } from 'next/navigation'
+import { useEffect, useState, ChangeEvent, FC } from 'react'
+
 /* eslint-disable react/no-unescaped-entities */
 const Techs = () => {
+  const pathname = usePathname()
+
+  useEffect(() => {
+    console.log('chamao recarregado')
+    // Verifica se a URL contém um hash específico
+    if (pathname.endsWith('#xnode')) {
+      // Se sim, rola para a seção com ID 'xnode'
+      setTimeout(() => {
+        document.getElementById('xnode')?.scrollIntoView()
+      }, 100) // ajuste o atraso conforme necessário
+    } else if (pathname.endsWith('#unified')) {
+      // Se sim, rola para a seção com ID 'xnode'
+      setTimeout(() => {
+        document.getElementById('unified')?.scrollIntoView()
+      }, 100) // ajuste o atraso conforme necessário
+    } else if (pathname.endsWith('#pythia')) {
+      // Se sim, rola para a seção com ID 'xnode'
+      setTimeout(() => {
+        document.getElementById('pythia')?.scrollIntoView()
+      }, 100) // ajuste o atraso conforme necessário
+    }
+  }, [])
   return (
     <>
-      <section
-        id="home"
-        className="relative z-10 overflow-hidden bg-white px-[30px] pt-[43px] text-[#000000] md:px-[90px] lg:pt-[105px]"
-      >
+      <section className="relative z-10 overflow-hidden bg-white px-[30px] pt-[43px] text-[#000000] md:px-[90px] lg:pt-[105px]">
         <div className="justify-center text-center">
           <div className=" flex justify-center text-[24px] font-medium -tracking-[2%] lg:text-start lg:text-[33px] lg:!leading-[58px] xl:text-[38px] 2xl:text-[48px]">
             Openmesh Academy
@@ -15,7 +39,7 @@ const Techs = () => {
           </div>
         </div>
         <div className="mx-auto mt-[40px] lg:mt-[103px]  lg:flex xl:max-w-[1600px]">
-          <div className="lg:mr-[50px] lg:pt-[100px] xl:mr-[90px]">
+          <div id="xnode" className="lg:mr-[50px] lg:pt-[100px] xl:mr-[90px]">
             <img
               src={`${
                 process.env.NEXT_PUBLIC_ENVIRONMENT === 'PROD'
@@ -143,7 +167,10 @@ const Techs = () => {
         </div>
         <div className="mx-auto mt-[55px] flex h-[1px] max-w-[1445px] bg-[#D4D4D4] lg:mt-[107px]"></div>
         <div className="mx-auto mt-[32px] lg:mt-[75px]  lg:flex xl:max-w-[1600px]">
-          <div className="ml-auto max-w-[830px] text-[11px] font-medium -tracking-[2%] lg:mt-0 lg:text-[14px] lg:!leading-[150%] xl:text-[16px] 2xl:text-[20px]">
+          <div
+            id="unified"
+            className="ml-auto max-w-[830px] text-[11px] font-medium -tracking-[2%] lg:mt-0 lg:text-[14px] lg:!leading-[150%] xl:text-[16px] 2xl:text-[20px]"
+          >
             <img
               src={`${
                 process.env.NEXT_PUBLIC_ENVIRONMENT === 'PROD'
@@ -296,6 +323,7 @@ const Techs = () => {
           </div>
           <div className="mt-[20px]  ml-auto max-w-[830px] text-[11px] font-medium -tracking-[2%] lg:mt-0 lg:text-[14px] lg:!leading-[150%] xl:text-[16px] 2xl:text-[20px]">
             <img
+              id="pythia"
               src={`${
                 process.env.NEXT_PUBLIC_ENVIRONMENT === 'PROD'
                   ? process.env.NEXT_PUBLIC_BASE_PATH

@@ -8,24 +8,25 @@ const Techs = () => {
   const pathname = usePathname()
 
   useEffect(() => {
-    console.log('chamao recarregado')
+    const hash = window.location.hash
     // Verifica se a URL contém um hash específico
-    if (pathname.endsWith('#xnode')) {
+    if (hash === '#xnode') {
       // Se sim, rola para a seção com ID 'xnode'
       setTimeout(() => {
         document.getElementById('xnode')?.scrollIntoView()
       }, 100) // ajuste o atraso conforme necessário
-    } else if (pathname.endsWith('#unified')) {
+    } else if (hash === '#unified') {
       // Se sim, rola para a seção com ID 'xnode'
       setTimeout(() => {
         document.getElementById('unified')?.scrollIntoView()
       }, 100) // ajuste o atraso conforme necessário
-    } else if (pathname.endsWith('#pythia')) {
+    } else if (hash === '#pythia') {
       // Se sim, rola para a seção com ID 'xnode'
       setTimeout(() => {
         document.getElementById('pythia')?.scrollIntoView()
       }, 100) // ajuste o atraso conforme necessário
     }
+    console.log('fim')
   }, [])
   return (
     <>

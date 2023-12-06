@@ -88,29 +88,53 @@ const Techs = () => {
                 <br />
                 <span>Getting Started</span>
                 <br />
-                <span className="text-[#959595]">
-                  Initial considerations and resources for xNode deployment.
-                </span>
+                <a
+                  href="https://docs.openmesh.network/products/xnode"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span className="text-[#959595]">
+                    Initial considerations and resources for xNode deployment.
+                  </span>
+                </a>
                 <br />
                 <br />
                 <span>Understanding Xnode</span>
                 <br />
-                <span className="text-[#959595]">
-                  An introduction to xNode's role in decentralizing data
-                  infrastructure.
-                </span>
+                <a
+                  href="https://docs.openmesh.network/products/xnode"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span className="text-[#959595]">
+                    An introduction to xNode's role in decentralizing data
+                    infrastructure.
+                  </span>{' '}
+                </a>
                 <br />
                 <br />
                 <span>Setting Up</span>
                 <br />
-                <span className="text-[#959595]">
-                  Step-by-step guide to deploying an xNode.
-                </span>
+                <a
+                  href="https://docs.openmesh.network/products/xnode"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span className="text-[#959595]">
+                    Step-by-step guide to deploying an xNode.
+                  </span>{' '}
+                </a>
                 <br />
                 <br />
                 <span>Developer support and resources</span>
                 <br />
-                <span className="text-[#959595]">Docs & Research</span>
+                <a
+                  href="https://docs.openmesh.network/products/xnode"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span className="text-[#959595]">Docs & Research</span>
+                </a>
               </div>
               <div className="mt-[20px] flex-1 text-[10px]  font-medium !leading-[135%] lg:mt-0 lg:text-[12px] xl:text-[13px] 2xl:text-[16px]">
                 <span className="text-[12px] font-bold lg:text-[14px] xl:text-[16px] 2xl:text-[20px]">
@@ -195,29 +219,53 @@ const Techs = () => {
                 <br />
                 <span>Getting Started</span>
                 <br />
-                <span className="text-[#959595]">
-                  Basics of Unified API and initial access points
-                </span>
+                <a
+                  href="https://docs.openmesh.network/products/unified-api"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span className="text-[#959595]">
+                    Basics of Unified API and initial access points
+                  </span>
+                </a>
                 <br />
                 <br />
                 <span>Understanding Pythia</span>
                 <br />
-                <span className="text-[#959595]">
-                  Simplifying complex data access through a singular, open
-                  interface
-                </span>
+                <a
+                  href="https://docs.openmesh.network/products/unified-api"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span className="text-[#959595]">
+                    Simplifying complex data access through a singular, open
+                    interface
+                  </span>
+                </a>
                 <br />
                 <br />
                 <span>Setting Up</span>
                 <br />
-                <span className="text-[#959595]">
-                  Step-by-step guide to integrating Unified API
-                </span>
+                <a
+                  href="https://docs.openmesh.network/products/unified-api"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span className="text-[#959595]">
+                    Step-by-step guide to integrating Unified API
+                  </span>
+                </a>
                 <br />
                 <br />
                 <span>Developer support and resources</span>
                 <br />
-                <span className="text-[#959595]">Docs & Research</span>
+                <a
+                  href="https://docs.openmesh.network/products/unified-api"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span className="text-[#959595]">Docs & Research</span>
+                </a>
               </div>
               <div className="mt-[20px] flex-1 text-[10px]  font-medium !leading-[135%] lg:mt-0 lg:text-[12px] xl:text-[13px] 2xl:text-[16px]">
                 <span className="text-[12px] font-bold lg:text-[14px] xl:text-[16px] 2xl:text-[20px]">
@@ -349,29 +397,53 @@ const Techs = () => {
                 <br />
                 <span>Getting Started</span>
                 <br />
-                <span className="text-[#959595]">
-                  Analytics & query engine for insightful data products.
-                </span>
+                <a
+                  href="https://docs.openmesh.network/products/pythia"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span className="text-[#959595]">
+                    Analytics & query engine for insightful data products.
+                  </span>
+                </a>
                 <br />
                 <br />
                 <span>Understanding Pythia</span>
                 <br />
-                <span className="text-[#959595]">
-                  Simplifying complex data access through a singular, open
-                  interface.
-                </span>
+                <a
+                  href="https://docs.openmesh.network/products/pythia"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span className="text-[#959595]">
+                    Simplifying complex data access through a singular, open
+                    interface.
+                  </span>
+                </a>
                 <br />
                 <br />
                 <span>Setting Up</span>
                 <br />
-                <span className="text-[#959595]">
-                  Step-by-step guide to deploying and using Pythia tools.
-                </span>
+                <a
+                  href="https://docs.openmesh.network/products/pythia"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span className="text-[#959595]">
+                    Step-by-step guide to deploying and using Pythia tools.
+                  </span>
+                </a>
                 <br />
                 <br />
                 <span>Developer support and resources</span>
                 <br />
-                <span className="text-[#959595]">Docs & Research</span>
+                <a
+                  href="https://docs.openmesh.network/products/pythia"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span className="text-[#959595]">Docs & Research</span>
+                </a>
               </div>
               <div className="mt-[20px] flex-1 text-[10px]  font-medium !leading-[135%] lg:mt-0 lg:text-[12px] xl:text-[13px] 2xl:text-[16px]">
                 <span className="text-[12px] font-bold lg:text-[14px] xl:text-[16px] 2xl:text-[20px]">

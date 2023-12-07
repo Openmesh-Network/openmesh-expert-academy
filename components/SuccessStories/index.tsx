@@ -27,7 +27,7 @@ const SuccessStories = () => {
                 <div>
                   <div className="h-[90px]  rounded-[10px] bg-[#E6E6E6] xl:h-[113px]"></div>
                   <div className="mt-[12px] text-[10px] font-bold md:text-[12px] lg:mt-[25px] lg:text-[14px] lg:!leading-[150%] xl:text-[16px] 2xl:text-[20px]">
-                    10Clouds using xNode
+                    10Clouds using Xnode
                   </div>
                   <div className="mt-[12px]  text-[8px] font-medium text-[#959595] md:text-[10px] lg:mt-[25px] lg:text-[12px] lg:!leading-[150%] xl:max-w-[294px] xl:text-[13px] 2xl:text-[16px]">
                     Hedge funds and algo-trading companies - Building a dynamic
@@ -40,7 +40,7 @@ const SuccessStories = () => {
                 <div>
                   <div className="h-[90px]  rounded-[10px] bg-[#E6E6E6] xl:h-[113px]"></div>
                   <div className="mt-[12px] text-[10px] font-bold md:text-[12px] lg:mt-[25px] lg:text-[14px] lg:!leading-[150%] xl:text-[20px]">
-                    10Clouds using xNode
+                    10Clouds using Xnode
                   </div>
                   <div className="mt-[12px]  text-[8px] font-medium text-[#959595] md:text-[10px] lg:mt-[25px] lg:text-[12px] lg:!leading-[150%] xl:max-w-[294px] xl:text-[13px] 2xl:text-[16px]">
                     Hedge funds and algo-trading companies - Building a dynamic
@@ -53,7 +53,7 @@ const SuccessStories = () => {
                 <div>
                   <div className="h-[90px]  rounded-[10px] bg-[#E6E6E6] xl:h-[113px]"></div>
                   <div className="mt-[12px] text-[10px] font-bold md:text-[12px] lg:mt-[25px] lg:text-[14px] lg:!leading-[150%] xl:text-[16px] 2xl:text-[20px]">
-                    10Clouds using xNode
+                    10Clouds using Xnode
                   </div>
                   <div className="mt-[12px] text-[8px] font-medium text-[#959595] md:text-[10px] lg:mt-[25px] lg:text-[12px] lg:!leading-[150%] xl:max-w-[294px] xl:text-[13px] 2xl:text-[16px]">
                     Hedge funds and algo-trading companies - Building a dynamic

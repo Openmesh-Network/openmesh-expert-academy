@@ -94,7 +94,7 @@ const Techs = () => {
                   rel="noreferrer"
                 >
                   <span className="text-[#959595]">
-                    Initial considerations and resources for xNode deployment.
+                    Initial considerations and resources for Xnode deployment.
                   </span>
                 </a>
                 <br />
@@ -107,7 +107,7 @@ const Techs = () => {
                   rel="noreferrer"
                 >
                   <span className="text-[#959595]">
-                    An introduction to xNode's role in decentralizing data
+                    An introduction to Xnode's role in decentralizing data
                     infrastructure.
                   </span>{' '}
                 </a>
@@ -121,7 +121,7 @@ const Techs = () => {
                   rel="noreferrer"
                 >
                   <span className="text-[#959595]">
-                    Step-by-step guide to deploying an xNode.
+                    Step-by-step guide to deploying an Xnode.
                   </span>{' '}
                 </a>
                 <br />
